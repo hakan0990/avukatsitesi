@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-image: url("img/clarisse-meyer-jKU2NneZAbI-unsplash.jpg");
+background-size: cover;
+
+
+}
+
+
+
+.container {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+/*Header Start*/
+header{
+
+    height: 120px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6 );
+}
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header nav .logo  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    
+
+
+}
+
+nav ul{
+
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+
+}
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    transition: color .25s ease;
+
+}
+nav.menu{
+
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(75, 64, 64);
+
+}
+
+/* Header end */
+/*Responsive Başlangıç*/
+
+
+ 
+ 
+.container{
+    width: 80%;
+    
+    padding-right: 12px;
+}
+
+menu ul {
+    column-gap: 20px;
+}
+
+  .Footer{
+    color: #fff;
+    text-decoration: none;  
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: relative;  
+    padding-top: 2.1%;
+  
+  }
+  .box{
+    
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+
+  }
+ 
+ .box h1{
+    font-size: 50px;
+    font-weight:bold ;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 590px;
+
+ }
+ .box h2{
+
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .box h3{
+
+font-size: 25px;
+font-weight: 100; 
+letter-spacing: 3px;   
+
+ }
+.bow h4{
+    text-align: justify;
+    font-size: 100px;
+
+ }
+ 
+ .box ul{
+    margin: 0;
+    padding: 0;
+    
+ }
+ .box li{
+    display: inline-block;
+    margin: 15px;
+    list-style: none;
+    column-gap: 15%;
+    
+
+ }
+ .box li a{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+    justify-content: space-around;
+    
+    
+ }
+ .box li a:hover{
+    color:#b9b9b9;
+ }
+ @media  only screen and (max-width:767px) {
+    .container{width: 767px;}
+    .box{width: 767px;
+        margin-top: 300px;
+       padding-right: 100px;
+    
+    }
+   
+    .Footer{width: 767px;
+    
+    margin-top: 425px;}
+
+     
+    html {
+        zoom: 54%;
+      }
+   
+   
+ }
